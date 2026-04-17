@@ -1,4 +1,4 @@
-import Abgroup from "../About/Img/Abgroup.png"
+import Abgroup from "../About/img/Abgroup.png"
 import { motion } from "framer-motion"
 
 function Aboutcodezens() {

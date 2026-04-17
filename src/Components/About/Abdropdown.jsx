@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import { IoMdArrowDropdown, IoMdArrowDropup } from "react-icons/io";
-import drop1 from "../About/Img/drop1.png"
-import drop2 from "../About/Img/drop2.png"
-import drop3 from "../About/Img/drop3.png"
-import drop4 from "../About/Img/drop4.png"
+import drop1 from "../About/img/drop1.png"
+import drop2 from "../About/img/drop2.png"
+import drop3 from "../About/img/drop3.png"
+import drop4 from "../About/img/drop4.png"
 import { motion } from 'framer-motion';
 
 function Abdropdown() {

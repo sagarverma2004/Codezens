@@ -1,4 +1,4 @@
-import lovehear from "../Contact/img/lovehear.png"
+import hearimg from "../Contact/img/hearimg.png"
 import { motion } from "framer-motion"
 import { MdOutlineMarkEmailUnread } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
@@ -63,7 +63,7 @@ function LoveHear() {
                                     whileInView={{ opacity: 1, y: 0, scale: 1 }}
                                     transition={{ duration: 0.5, delay: 0.2 }}
                                     viewport={{ once: true, amount: 0.2 }}
-                                    src={lovehear}
+                                    src={hearimg}
                                     alt=""
                                     className=""
                                 />
