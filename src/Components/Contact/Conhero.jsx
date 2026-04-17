@@ -1,4 +1,4 @@
-import contactform from "../Contact/img/contactform.jpg"
+import contactform from "./img/contactform.jpg"
 import LineBackground from "../Homes/img/LineBackground.png";
 import { motion } from "framer-motion";
 

@@ -1,7 +1,7 @@
 import { IoIosArrowRoundForward } from "react-icons/io"
-import our1 from "../Homes/img/our1.png"
-import our2 from "../Homes/img/our2.png"
-import our3 from "../Homes/img/our3.png"
+import our1 from "./img/our1.png"
+import our2 from "./img/our2.png"
+import our3 from "./img/our3.png"
 import { motion } from "framer-motion"
 import { Link } from "react-router-dom"
 

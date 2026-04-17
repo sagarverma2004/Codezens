@@ -1,4 +1,4 @@
-import recaptchaicon from "../Contact/img/recaptchaicon.png";
+import recaptchaicon from "./img/recaptchaicon.png";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
 function Form() {

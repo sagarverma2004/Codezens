@@ -1,4 +1,4 @@
-import workimg from "../Workpage/img/workimg.png";
+import workimg from "./img/workimg.png";
 import LineBackground from "../Homes/img/LineBackground.png";
 import { motion } from "framer-motion";
 

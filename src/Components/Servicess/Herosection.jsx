@@ -1,4 +1,4 @@
-import servicehero from "../Servicess/img/servicehero.png";
+import servicehero from "./img/servicehero.png";
 import LineBackground from "../Homes/img/LineBackground.png";
 import { motion } from "framer-motion";
 

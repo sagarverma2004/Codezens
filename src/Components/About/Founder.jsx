@@ -1,4 +1,4 @@
-import Vinod1 from "../About/Img/Vinod1.jpeg"
+import Vinod1 from "./Img/Vinod1.jpeg"
 import { motion } from "framer-motion"
 
 function Founder() {

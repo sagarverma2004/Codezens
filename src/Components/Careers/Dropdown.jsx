@@ -1,6 +1,6 @@
 import { BsArrowDown } from "react-icons/bs";
 import { useState } from "react";
-import careerdropdownimg from "../Careers/img/careerdropdownimg.png"
+import careerdropdownimg from "./img/careerdropdownimg.png"
 import { MdArrowDropDown } from "react-icons/md";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { motion } from "framer-motion";

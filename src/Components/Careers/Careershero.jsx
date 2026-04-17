@@ -1,4 +1,4 @@
-import careerhero from "../Careers/img/careerhero.png"
+import careerhero from "./img/careerhero.png"
 import LineBackground from "../Homes/img/LineBackground.png"
 import { motion } from "framer-motion";
 

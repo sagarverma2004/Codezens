@@ -1,6 +1,14 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { SiFigma, SiAdobexd, SiAdobephotoshop, SiAdobeaftereffects, SiFramer, SiSketch } from "react-icons/si";
+// Yahan dhyan dena, maine SiAdobeaftereffects ko SiAftereffects se badal diya hai
+import {
+    SiFigma,
+    SiAdobexd,
+    SiAdobephotoshop,
+    SiAftereffects, // Ye naam try karo
+    SiFramer,
+    SiSketch
+} from "react-icons/si";
 
 function DesignTools() {
 
@@ -8,7 +16,7 @@ function DesignTools() {
         { name: "Figma", icon: <SiFigma className="text-[#F24E1E]" /> },
         { name: "Adobe XD", icon: <SiAdobexd className="text-[#FF61F6]" /> },
         { name: "Photoshop", icon: <SiAdobephotoshop className="text-[#31A8FF]" /> },
-        { name: "After Effects", icon: <SiAdobeaftereffects className="text-[#9999FF]" /> },
+        { name: "After Effects", icon: <SiAftereffects className="text-[#9999FF]" /> },
         { name: "Framer", icon: <SiFramer className="text-black" /> },
         { name: "Sketch", icon: <SiSketch className="text-[#FDB300]" /> }
     ];
@@ -28,7 +36,6 @@ function DesignTools() {
 
     return (
         <section className="py-16 md:py-24 bg-[#F9F9FB]">
-
             <div className="px-4 mx-auto text-center max-w-7xl sm:px-6">
 
                 {/* Heading */}
@@ -47,7 +54,7 @@ function DesignTools() {
                     </p>
                 </motion.div>
 
-                {/* Tools */}
+                {/* Tools Grid */}
                 <motion.div
                     variants={container}
                     initial="hidden"
@@ -62,7 +69,6 @@ function DesignTools() {
                             whileHover={{ y: -8, scale: 1.05 }}
                             className="flex flex-col items-center justify-center gap-3 p-5 transition-all bg-white border border-gray-100 shadow-sm w-36 sm:w-44 md:w-52 sm:p-6 md:p-8 rounded-3xl hover:shadow-xl sm:gap-4 group"
                         >
-                            {/* Icon */}
                             <motion.div
                                 whileHover={{ scale: 1.2, rotate: 6 }}
                                 className="text-3xl sm:text-4xl md:text-5xl"
@@ -70,7 +76,6 @@ function DesignTools() {
                                 {tool.icon}
                             </motion.div>
 
-                            {/* Name */}
                             <span className="text-sm font-bold tracking-tight text-center text-gray-800 sm:text-base">
                                 {tool.name}
                             </span>
