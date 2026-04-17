@@ -1,6 +1,6 @@
 import DesignPhilosophy from "../Components/Homeuiuxdesign/DesignPhilosophy"
 import DesignServices from "../Components/Homeuiuxdesign/DesignServices"
-import DesignTools from "../Components/Homeuiuxdesign/DesignTools"
+// import DesignTools from "../Components/Homeuiuxdesign/DesignTools"
 import Uihero from "../Components/Homeuiuxdesign/Uihero"
 
 
@@ -8,7 +8,7 @@ function Homeuiuxdesign() {
   return (
     <>
       <Uihero />
-      <DesignTools />
+      {/* <DesignTools /> */}
       <DesignPhilosophy />
       <DesignServices />
     </>
