@@ -1,6 +1,6 @@
 import Abcodezens from '../Components/About/Abcodezens';
 import Abdropdown from '../Components/About/Abdropdown';
-import Abhero from '../Components/About/AbHero';
+import Abhero from '../Components/About/Abhero';
 import Aboutcodezens from '../Components/About/Aboutcodezens';
 import Abslider from '../Components/About/Abslider';
 import Founder from '../Components/About/Founder';
