@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+:root {
+    --font-inder: 'Times New Roman', sans-serif;
+}
+
+html {
+    font-family: var(--font-inder);
+}
+
+/* Remove text cursor everywhere */
