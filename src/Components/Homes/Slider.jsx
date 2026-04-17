@@ -1,7 +1,7 @@
-import Slide from "../Homes/img/Slide.png"
-import Logo from "../Homes/img/Logo.png"
-import Allexam from "../Homes/img/Allexam.png"
-import Learn from "../Homes/img/Learn.png"
+import Slide from "./img/Slide.png"
+import Logo from "./img/Logo.png"
+import Allexam from "./img/Allexam.png"
+import Learn from "./img/Learn.png"
 import { motion } from "framer-motion"
 
 function Slider() {

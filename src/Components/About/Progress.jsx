@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import pro1 from "../About/Img/pro1.png";
-import pro2 from "../About/Img/pro2.png";
-import pro3 from "../About/Img/pro3.png";
-import pro4 from "../About/Img/pro4.png";
+import pro1 from "./Img/pro1.png";
+import pro2 from "./Img/pro2.png";
+import pro3 from "./Img/pro3.png";
+import pro4 from "./Img/pro4.png";
 import { motion, AnimatePresence } from "framer-motion";
 
 const Progress = () => {

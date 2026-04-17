@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom"
 import {  IoIosArrowRoundForward } from "react-icons/io"
-// import { HiOutlineMenu, HiOutlineX } from "react-icons/hi"
 import { RiBarChartHorizontalLine } from "react-icons/ri";
 import { RiBarChartLine } from "react-icons/ri";
 import { useState } from "react"
-import codezens from "../Header/img/codezens.png"
+import codezens from "./img/codezens.png"
 import { motion, AnimatePresence } from "framer-motion"
 
 function Navbar() {

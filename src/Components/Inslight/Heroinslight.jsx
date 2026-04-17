@@ -1,4 +1,4 @@
-import insighthero from "../Inslight/img/insighthero.png";
+import insighthero from "./img/insighthero.png";
 import LineBackground from "../Homes/img/LineBackground.png";
 import { motion } from "framer-motion";
 

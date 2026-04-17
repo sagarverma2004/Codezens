@@ -1,4 +1,4 @@
-import hearimg from "../Contact/img/hearimg.png"
+import hearimg from "./img/hearimg.png"
 import { motion } from "framer-motion"
 import { MdOutlineMarkEmailUnread } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";

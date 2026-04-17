@@ -1,5 +1,5 @@
-import Aboutline from "../About/img/Aboutline.png"
-import abouthero from "../About/img/abouthero.png";
+import Aboutline from "./img/Aboutline.png"
+import abouthero from "./img/abouthero.png";
 import { motion } from "framer-motion";
 
 function AboutHero() {
