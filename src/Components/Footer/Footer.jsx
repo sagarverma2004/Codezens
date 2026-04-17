@@ -67,7 +67,7 @@ function Footer() {
                             </motion.div>
 
                             <div className="space-y-4 text-sm md:text-base">
-                                <div className="flex flex-col md:flex-row items-center md:items-start gap-4 text-center md:text-left">
+                                <div className="flex flex-col lg:flex-row items-center md:items-start gap-4 text-center md:text-left">
                                     <FaLocationDot className="text-[#FFCC00] text-lg" />
                                     <span className="text-gray-300">Rameshwaram Building, 175, Arihant Nagar, Indore, MP 453112</span>
                                 </div>
