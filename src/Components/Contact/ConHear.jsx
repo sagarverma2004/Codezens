@@ -4,7 +4,7 @@ import { MdOutlineMarkEmailUnread } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 
 
-function LoveHear() {
+function ConHear() {
     return (
         <>
 
@@ -77,4 +77,4 @@ function LoveHear() {
     )
 }
 
-export default LoveHear;
+export default ConHear;

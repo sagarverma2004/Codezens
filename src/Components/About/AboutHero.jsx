@@ -2,7 +2,7 @@ import Aboutline from "../About/img/Aboutline.png"
 import abouthero from "../About/img/abouthero.png";
 import { motion } from "framer-motion";
 
-function AbHero() {
+function AboutHero() {
   return (
     <section className="relative w-full h-[60vh] md:h-[80vh] overflow-hidden">
 
@@ -57,4 +57,4 @@ function AbHero() {
   );
 }
 
-export default AbHero;
+export default AboutHero;

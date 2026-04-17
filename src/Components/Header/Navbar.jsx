@@ -4,7 +4,7 @@ import {  IoIosArrowRoundForward } from "react-icons/io"
 import { RiBarChartHorizontalLine } from "react-icons/ri";
 import { RiBarChartLine } from "react-icons/ri";
 import { useState } from "react"
-import codezens from "../Header/Img/codezens.png"
+import codezens from "../Header/img/codezens.png"
 import { motion, AnimatePresence } from "framer-motion"
 
 function Navbar() {
