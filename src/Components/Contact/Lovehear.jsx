@@ -1,10 +1,10 @@
-import lovehear from "../Contact/Img/lovehear.png"
+import lovehear from "../Contact/img/lovehear.png"
 import { motion } from "framer-motion"
 import { MdOutlineMarkEmailUnread } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 
 
-function Lovehear() {
+function LoveHear() {
     return (
         <>
 
@@ -14,14 +14,7 @@ function Lovehear() {
 
                         {/* left-div */}
                         <div className="lg:w-[50%] text-center lg:text-left ">
-                            {/* <motion.h2
-                                initial={{ opacity: 0, y: 100, }}
-                                whileInView={{ opacity: 1, y: 0, }}
-                                transition={{ duration: 0.4, delay: 0.2 }}
-                                viewport={{ once: true, amount: 0.2 }}
-                                className="text-xl md:text-2xl font-medium uppercase tracking-widest mb-4">
-                                Founder
-                            </motion.h2> */}
+
                             <motion.h1
                                 initial={{ opacity: 0, y: 100, }}
                                 whileInView={{ opacity: 1, y: 0, }}
@@ -84,4 +77,4 @@ function Lovehear() {
     )
 }
 
-export default Lovehear;
+export default LoveHear;
